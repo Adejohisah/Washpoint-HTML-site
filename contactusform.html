@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+ <title>Contact Us Form</title>
+ <meta name="keywords" content="contact us form,form">
+ <meta name="description" content="this is contact form created using html with email,radio,select drop downa submitt buton">
+ <meta name="author" content="adejoh Isah">
+</head>
+<body bgcolor="lightblue">
+<h2>CONTACT US FORM</h2>
+<br>
+<form action="process.php" method="post"  enctype="multiple/form-data" autocomplete="off">
+  <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+<br>
+
+
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+
+
+<br><br><br>
+<b>Gender</b><br><br>
+<input type="radio" name="gender" id="male" value="male" checked  > <label for="male">Male</label><br>
+<input type="radio" name="gender" id="female"value="female"> <label for="female">Female</label><br>
+<input type="radio" name="gender" id="other"value="other"> <label for="other">other</label>
+<br><br><br>
+Adress<br><br>
+<textarea name="adress" cols="12" rows="6' id="address" placeholder="your adress here"></textarea>
+<br><br>
+State of Origin <br>
+<select>
+<option value="">select state</option>
+<option value="abia">Abia</option>
+<option value="adamawa">Adamawa</option>
+<option value="akwaibom">Akwaibom</option>
+<option value="anambra">Anambra</option>
+<option value="bauchi">Bauchi</option>
+<option value="bayelsa">Bayelsa</option>
+<option value="benue">Benue</option>
+<option value="borno">Borno</option>
+<option value="crossriver">Cossriver</option>
+<option value="delta">Delta</option>
+<option value="lagos">Lagos</option>
+<option value>Kano</option>
+<option value="kogi">Kogi</option>
+<option value="plateau">Plateau</option>
+<option value="fct abuja	">FCT Abuja</option>
+</select> <br><br>
+
+Feedback Channel(Check )<br><br>
+<input type="checkbox" name="Phone" value="phone"> Phone <br>
+<input type="checkbox" name="Fax" value="fax">Fax<br>
+<input type="checkbox" name="Email" value="email"> Email <br><br>
+
+
+<input type="submit" name="submit" value="Submit">
+<button type="Reset"> Reset</button>
+
+
+</form>
+</body>
+</html>
